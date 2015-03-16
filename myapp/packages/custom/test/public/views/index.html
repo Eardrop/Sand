@@ -1,0 +1,13 @@
+<div class="" data-ng-controller="TestController">
+  <div id="back"></div>
+  <div class="chat">
+    <input class="email" ng-model="msg" placeholder="Email Here"></input>
+    <textarea class="textarea" ng-model="txt"placeholder="Type here"></textarea>
+    <button ng-click="send()"id="button">
+      <span>To DB and Email</span></button>
+    </div>
+<div class="menu">
+  <div id="next" ng-click="move(50, 0, 0)">Next</div>
+  <div id="previous" ng-click="move(0, 50, 0)">Prev</div>
+</div>
+</div>
